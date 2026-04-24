@@ -16,7 +16,7 @@ let state: RejseState = new RejseState();
 let nextHandler: HandleHandler<any> | undefined = new HandleHandler(state, start);
 rl.on('line', async (line: string) => {
     if (line === "" || line === "\n") {
-        console.log("Input blev ikke accepteret!");
+        console.log("Input was not accepted!");
         
         nextHandler?.logs();
         return;
