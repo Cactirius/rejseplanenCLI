@@ -1,0 +1,28 @@
+{
+  "id": "fdikjxk26qubh28h",
+    "ver": "1.24",
+      "lang": "dan",
+        "auth": { "type": "AID", "aid": "j1sa92pcj72ksh0-web" },
+  "client": {
+    "id": "DK",
+      "type": "WEB",
+        "name": "rejseplanwebapp",
+          "l": "vs_webapp",
+            "v": "1.0.5"
+  },
+  "formatted": false,
+    "ext": "DK.11",
+      "svcReqL": [
+        {
+          "req": {
+            "input": {
+              "field": "S",
+              "loc": { "name": "?", "type": "ALL", "dist": 1000 },
+              "maxLoc": 10
+            }
+          },
+          "meth": "LocMatch",
+          "id": "1|13|"
+        }
+      ]
+}
