@@ -1,3 +1,8 @@
+import type iAddress from "./iAddress"
+
 export interface SelectAddress {
-    stopLocationOrCoordLocation: [object]
+    stopLocationOrCoordLocation: {
+        StopLocation?: any,
+        CoordLocation?: any
+    }[]
 }

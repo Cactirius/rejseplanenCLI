@@ -5,7 +5,6 @@ import start from "./src/handlers/start.ts"
 import type Handler from "./src/interfaces/ihandle.ts";
 import RejseState from "./src/classes/RejseState.ts";
 import HandleHandler from "./src/classes/HandleHandler.ts";
-import type Address from "./src/classes/Address.ts";
 
 const rl = readline.createInterface({
     input: process.stdin,

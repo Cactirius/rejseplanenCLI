@@ -1,12 +1,12 @@
-import type Address from "./Address";
+import type iAddress from "../interfaces/iAddress";
 
 export default class RejseState {
-    #from?: Address
-    #to?: Address
-    setFrom(addr?: Address) {
+    #from?: iAddress
+    #to?: iAddress
+    setFrom(addr?: iAddress) {
         this.#from = addr;
     }
-    setTo(addr?: Address) {
+    setTo(addr?: iAddress) {
         this.#to = addr;
     }
     getFrom() {

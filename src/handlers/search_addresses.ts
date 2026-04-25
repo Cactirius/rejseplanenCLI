@@ -1,4 +1,3 @@
-import Address from "../classes/Address.ts";
 import HandleHandler from "../classes/HandleHandler.ts";
 import type RejseState from "../classes/RejseState.ts";
 import type Handler from "../interfaces/ihandle.ts";
