@@ -1,4 +1,4 @@
-# rejsplan
+# WIP rejsplan
 
 To install dependencies:
 
